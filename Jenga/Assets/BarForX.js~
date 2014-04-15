@@ -1,0 +1,53 @@
+﻿#pragma strict
+
+static var selectedGameObject : GameObject;
+function Start () {
+}
+
+function Update () {
+	_touchFunction();
+}
+
+function OnCollisionEnter (obj : Collision) {
+	if (obj.gameObject.name == "Plane") {
+		Debug.Log("Hit! R");
+    }
+}
+
+function _isBottomBlock (){
+	
+}
+
+// タッチ関係の処理
+function _touchFunction (){
+
+	if (_isTouchObject()) {
+		_successTouch();
+	}
+}
+
+// オブジェクトをタッチしてるかどうか
+function _isTouchObject (){
+	var ray : Ray;
+	var hit : RaycastHit;
+	ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+	if (Physics.Raycast(ray, hit, 100)) {
+		selectedGameObject = hit.collider.gameObject;
+	} else {
+		selectedGameObject = null;
+	}
+
+	if (Input.GetMouseButtonDown(0)
+		&& this.gameObject == selectedGameObject)
+	{
+		return 1;
+	}
+	return 0;
+}
+
+// オブジェクトをタッチした時の処理
+function _successTouch (){
+	TextDisplay.addPoint(1);
+	Destroy(gameObject);
+	Application.LoadLevel
+}
