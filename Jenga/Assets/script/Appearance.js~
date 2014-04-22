@@ -1,0 +1,6 @@
+﻿#pragma strict
+
+var object1 : GameObject;
+function addObject () {
+	object1=Instantiate(Resources.Load("PrefabTest", GameObject), transform.position, Quaternion.identity);
+}

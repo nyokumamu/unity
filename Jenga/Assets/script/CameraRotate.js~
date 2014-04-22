@@ -1,15 +1,48 @@
 ﻿#pragma strict
 
 static var _rotate : float = 0;
+static var _speed  : float = 5;
+
+var screenPoint : Vector3;
+var offset : Vector3;
+
+var x : float;
+var y : float;
+
 function Update () {
-	var vec3 : Vector3 = Vector3(0, _rotate*2, 0);
+	// 回転
+	var vec3 : Vector3 = Vector3(0, _rotate*_speed, 0);
 	transform.RotateAround(vec3.zero, vec3.up, -vec3.y);
+
+	x += Input.GetAxis("Mouse X") * _speed * 0.1;
+	y -= Input.GetAxis("Mouse Y") * _speed * 0.1;
+	Debug.Log("x : " + x + ", y : " + y);
+}
+function ClampAngle (angle : float, min : float, max : float) {
+    if (angle < -360)
+        angle += 360;
+    if (angle > 360)
+        angle -= 360;
+    return Mathf.Clamp (angle, min, max);
+}
+
+function OnMouseDown(){
+	Debug.Log("path0");
+	screenPoint = Camera.main.WorldToScreenPoint(transform.position);
+	offset = transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
+}
+
+function OnMouseDrag(){
+	Debug.Log("path1");
+	var currentScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);
+	var currentPosition : Vector3 = Camera.main.ScreenToWorldPoint(currentScreenPoint) + this.offset;
+	transform.position = currentPosition;
 }
 
 static function addRotate (rotate : float){
-	Debug.Log("rotate : " + rotate);
 	_rotate = rotate;	
 }
+
 static function resetRotate () {
 	_rotate = 0;
 }

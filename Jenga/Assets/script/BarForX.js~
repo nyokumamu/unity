@@ -1,7 +1,10 @@
 ﻿#pragma strict
 
 static var selectedGameObject : GameObject;
+
 function Start () {
+	// 重力を50倍に
+	Physics.gravity = Vector3.down*50;
 }
 
 function Update () {
@@ -10,7 +13,7 @@ function Update () {
 
 function OnCollisionEnter (obj : Collision) {
 	if (obj.gameObject.name == "CollisionPlane") {
-		Debug.Log("hogehogehoge");
+		TextDisplay.doGameOver();
     }
 }
 
@@ -47,6 +50,34 @@ function _isTouchObject (){
 
 // オブジェクトをタッチした時の処理
 function _successTouch (){
+
+
+	if(TextDisplay.isGameOver){
+		return;
+	}
+
+	if (!_isValidColor(gameObject)) {
+		return;
+	}
+
+	// 1 point加算
 	TextDisplay.addPoint(1);
+	// 新たなブロック群の出現
+	CubeBlockSpawn.generateBlock();
+	// 自分のブロックを消去
 	Destroy(gameObject);
+	TextDisplay.changeColor();
 }
+
+// 指定のカラーとあっているかどうか
+function _isValidColor (block : GameObject){
+	var currentColor = TextDisplay.dispColor;
+	if (currentColor == 'red') {
+		return block.name == 'RedCube';
+	} else if (currentColor == 'yellow') {
+		return block.name == 'YellowCube';
+	} else {
+		return block.name == 'BlueCube';
+	}
+}
+

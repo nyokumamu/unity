@@ -2,6 +2,7 @@
 
 function OnMouseDown (){
 	Application.LoadLevel("Top");
-	TextDisplay.resetPoint();
+	TextDisplay.initialize();
+	CubeBlockSpawn.resetPoint();
 }
 

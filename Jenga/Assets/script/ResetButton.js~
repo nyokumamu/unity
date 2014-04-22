@@ -2,5 +2,6 @@
 
 function OnMouseDown (){
 	Application.LoadLevel("Top");
+	TextDisplay.initialize();
 }
 

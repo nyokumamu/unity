@@ -1,0 +1,33 @@
+﻿#pragma strict
+
+// 縦
+static var aPosition : Vector3 = Vector3(0.43,5.6279,0);
+// 横
+static var bPosition : Vector3 = Vector3(0,5.6279,-0.32);
+
+static var point : int = 0;
+static var blockHeight : float = 0.5;
+static var interval : float = 0.1;
+
+
+static function generateBlock() {
+	
+	if (Input.GetMouseButtonDown(0)) {
+		var addHeight : float = point * blockHeight + interval;
+		var no : int = Random.value*3;
+		var name : String = "CubeBlock" + no;
+		Debug.Log("name : " + name);
+		var blockPrefab : GameObject = Resources.Load(name);
+		if (point % 2) {
+			Instantiate(blockPrefab, Vector3(aPosition[0], aPosition[1] + addHeight, aPosition[2]),  Quaternion.Euler(0,0,0));	
+		} else {
+			Instantiate(blockPrefab, Vector3(bPosition[0], bPosition[1] + addHeight, bPosition[2]),  Quaternion.Euler(0,90,0));	
+		}
+		point = point + 1;
+	}
+}
+
+
+static function resetPoint(){
+	point = 0;
+}
