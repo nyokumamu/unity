@@ -1,0 +1,15 @@
+﻿#pragma strict
+
+// ハイスコア更新中かどうかのチェック
+static function canUpdateHighScore (_score : int) {
+	var highScore : int = this.getHighScore();
+	return (highScore < _score);
+}
+
+static function updateHighScore(_score : int) {
+	PlayerPrefs.SetInt("HighScore", _score);
+}
+
+static function getHighScore () {
+	return PlayerPrefs.GetInt("HighScore");
+}

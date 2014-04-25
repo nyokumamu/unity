@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
 // 縦
-static var aPosition : Vector3 = Vector3(0.43,5.6279,0);
+static var aPosition : Vector3 = Vector3(0.43,5.3279,0);
 // 横
 static var bPosition : Vector3 = Vector3(0,5.6279,-0.32);
 

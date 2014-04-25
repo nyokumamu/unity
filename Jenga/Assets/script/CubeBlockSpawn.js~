@@ -16,7 +16,8 @@ static function generateBlock() {
 		var addHeight : float = point * blockHeight + interval;
 		var no : int = Random.value*3;
 		var name : String = "CubeBlock" + no;
-		var blockPrefab : GameObject = Resources.Load("CubeBlock");
+		Debug.Log("name : " + name);
+		var blockPrefab : GameObject = Resources.Load(name);
 		if (point % 2) {
 			Instantiate(blockPrefab, Vector3(aPosition[0], aPosition[1] + addHeight, aPosition[2]),  Quaternion.Euler(0,0,0));	
 		} else {

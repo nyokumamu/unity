@@ -4,6 +4,11 @@ static var point : int = 0;
 static var isGameOver : int = 0;
 static var dispColor : String = "red";
 
+// 色指定を行うテクスチャ
+var redTexture : Texture;
+var blueTexture : Texture;
+var yellowTexture : Texture;
+
 // 連続で色通りバーを消した回数
 static var consecutiveCount : int = 0;
 // ブロックを倒す毎にもらえるポイント
@@ -22,6 +27,8 @@ function OnGUI(){
 
 	// color panel 表示
 	_addColorLabel();
+	// HighScore表示
+	_addHighScoreLabel();
 
 	if (isGameOver) {
 		var style = new GUIStyle();
@@ -32,12 +39,27 @@ function OnGUI(){
 	}
 }
 
-var redTexture : Texture;
-var blueTexture : Texture;
-var yellowTexture : Texture;
 function _addColorLabel (){
-	GUI.DrawTexture(Rect(Screen.width*7/16,Screen.height/10,Screen.width/8,Screen.height/8), _colorTexture(), ScaleMode.ScaleToFit, true);
+	GUI.DrawTexture(
+			Rect(
+				Screen.width*7/16,
+				Screen.height/10,
+				Screen.width/8,
+				Screen.height/8
+			),
+			_colorTexture(),
+			ScaleMode.ScaleToFit,
+			true
+	);
 }
+function _addHighScoreLabel (){
+	var highScore : int = HighScore.getHighScore();
+	var dispText : String = "HighScore : " + highScore;
+	var style = new GUIStyle();
+	style.fontSize = 20;
+	GUI.Label(Rect(Screen.width*3/5,Screen.height*4/5,Screen.width/5,Screen.height/5), dispText, style);
+}
+
 function _colorTexture (){
 	if (dispColor == 'red') {
 		return redTexture;
@@ -56,6 +78,10 @@ static function addPoint(isClearQuest : boolean) {
 			consecutiveCount = 0;
 		}
 		point += basePoint * (1 + consecutiveCount);
+	}
+
+	if (HighScore.canUpdateHighScore(point)) {
+		HighScore.updateHighScore(point);
 	}
 }
 static function resetPoint() {
