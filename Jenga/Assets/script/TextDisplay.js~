@@ -4,11 +4,21 @@ static var point : int = 0;
 static var isGameOver : int = 0;
 static var dispColor : String = "red";
 
+// 連続で色通りバーを消した回数
+static var consecutiveCount : int = 0;
+// ブロックを倒す毎にもらえるポイント
+static var basePoint : int = 1;
+
 function OnGUI(){
 	// Point表示
 	var pointDisplayStyle = new GUIStyle();
 	pointDisplayStyle.fontSize = 40;
-	GUI.Label(Rect(10,20,120,20), point + " point", pointDisplayStyle);
+	var dispText = point + " point";
+	if (0 < consecutiveCount) {
+		var tmpValue = consecutiveCount * basePoint;
+		dispText = dispText + "(+" + tmpValue + ")";
+	}
+	GUI.Label(Rect(10,20,120,20), dispText, pointDisplayStyle);
 
 	// color panel 表示
 	_addColorLabel();
@@ -38,13 +48,17 @@ function _colorTexture (){
 	}
 }
 
-static function addPoint(_addPoint : int) {
+static function addPoint(isClearQuest : boolean) {
 	if (!isGameOver) {
-	point += _addPoint;
+		if (isClearQuest) { 
+			consecutiveCount += 1;
+		}
+		point += basePoint * (1 + consecutiveCount);
 	}
 }
 static function resetPoint() {
 	point = 0;
+	consecutiveCount = 0;
 }
 
 static function changeColor() {

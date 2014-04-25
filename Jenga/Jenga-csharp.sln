@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{053227E3-D601-C19F-6D68-A56E3B88E630}") = "Jenga", "Assembly-CSharp-firstpass-vs.csproj", "{11A24AD4-C51C-2407-40AE-E38CCD9A348E}"
+EndProject
 Project("{053227E3-D601-C19F-6D68-A56E3B88E630}") = "Jenga", "Assembly-CSharp-vs.csproj", "{20B71582-A6C9-B0FF-6281-A7C6F4266715}"
 EndProject
 Project("{053227E3-D601-C19F-6D68-A56E3B88E630}") = "Jenga", "Assembly-CSharp-Editor-vs.csproj", "{2D82F3BA-53E5-52AB-E4B8-5BB58DF9986C}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11A24AD4-C51C-2407-40AE-E38CCD9A348E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A24AD4-C51C-2407-40AE-E38CCD9A348E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A24AD4-C51C-2407-40AE-E38CCD9A348E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A24AD4-C51C-2407-40AE-E38CCD9A348E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{20B71582-A6C9-B0FF-6281-A7C6F4266715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{20B71582-A6C9-B0FF-6281-A7C6F4266715}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20B71582-A6C9-B0FF-6281-A7C6F4266715}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																											GlobalSection(MonoDevelopProperties) = preSolution
+																																GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

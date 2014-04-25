@@ -3,7 +3,7 @@
 static var selectedGameObject : GameObject;
 
 function Start () {
-	// 重力を50倍に
+	// 重力を30倍に
 	Physics.gravity = Vector3.down*30;
 }
 
@@ -56,12 +56,8 @@ function _successTouch (){
 		return;
 	}
 
-	if (!_isValidColor(gameObject)) {
-		return;
-	}
-
 	// 1 point加算
-	TextDisplay.addPoint(1);
+	TextDisplay.addPoint(_isValidColor(gameObject));
 	// 新たなブロック群の出現
 	CubeBlockSpawn.generateBlock();
 	// 自分のブロックを消去
