@@ -5,8 +5,6 @@ Project("{053227E3-D601-C19F-6D68-A56E3B88E630}") = "Jenga", "Assembly-CSharp-fi
 EndProject
 Project("{053227E3-D601-C19F-6D68-A56E3B88E630}") = "Jenga", "Assembly-CSharp.csproj", "{20B71582-A6C9-B0FF-6281-A7C6F4266715}"
 EndProject
-Project("{053227E3-D601-C19F-6D68-A56E3B88E630}") = "Jenga", "Assembly-CSharp-Editor.csproj", "{2D82F3BA-53E5-52AB-E4B8-5BB58DF9986C}"
-EndProject
 Project("{053227E3-D601-C19F-6D68-A56E3B88E630}") = "Jenga", "Assembly-UnityScript.unityproj", "{386CB76B-3F53-B453-E52C-918987CAC048}"
 EndProject
 Global
@@ -23,10 +21,6 @@ Global
 		{20B71582-A6C9-B0FF-6281-A7C6F4266715}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20B71582-A6C9-B0FF-6281-A7C6F4266715}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20B71582-A6C9-B0FF-6281-A7C6F4266715}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D82F3BA-53E5-52AB-E4B8-5BB58DF9986C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D82F3BA-53E5-52AB-E4B8-5BB58DF9986C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D82F3BA-53E5-52AB-E4B8-5BB58DF9986C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D82F3BA-53E5-52AB-E4B8-5BB58DF9986C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{386CB76B-3F53-B453-E52C-918987CAC048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{386CB76B-3F53-B453-E52C-918987CAC048}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{386CB76B-3F53-B453-E52C-918987CAC048}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																				GlobalSection(MonoDevelopProperties) = preSolution
+																																																							GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

@@ -1,0 +1,1179 @@
+fileFormatVersion: 2
+guid: 7f66b8f3a650b401ebab2e72eedc1ae3
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Mobile Cartoon Rock_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 953
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 953
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 953
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_3
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 998
+        width: 62
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_4
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 998
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_5
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 998
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_6
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 998
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_7
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 998
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_8
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 998
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_9
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 924
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_10
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 924
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 869
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_12
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 869
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 917
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_14
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 927
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_15
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 936
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_16
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 938
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_17
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 939
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 785
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_19
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 785
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_20
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 846
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_21
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 845
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 852
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_23
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 855
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_24
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 859
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_25
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 840
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_26
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 840
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_27
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 746
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_28
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 796
+        width: 62
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_29
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 796
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_30
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 768
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_31
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 764
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_32
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 769
+        width: 70
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_33
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 756
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_34
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 756
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 701
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_36
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 701
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_37
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 754
+        width: 80
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 617
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_39
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 617
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_40
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 662
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_41
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 689
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_42
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 672
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_43
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 690
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_44
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 686
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_45
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 672
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_46
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 672
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 533
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_48
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 533
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_49
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 578
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_50
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 598
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_51
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 606
+        width: 58
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_52
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 597
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_53
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 588
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_54
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 588
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_55
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 581
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_56
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 581
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 410
+        width: 105
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_58
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 494
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_59
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 494
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_60
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 514
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_61
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 518
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_62
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 517
+        width: 59
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_63
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 504
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_64
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 504
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_65
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 527
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_66
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 527
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_67
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 494
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_68
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 420
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_69
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 420
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_70
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 473
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_71
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 463
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_72
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 410
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 418
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_74
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 449
+        width: 54
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_75
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 439
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_76
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 433
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_77
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 418
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_78
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 423
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 116
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_80
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 334
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 334
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_82
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 336
+        width: 52
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_83
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 354
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_84
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 350
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_85
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 349
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_86
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 336
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_87
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 336
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_88
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 177
+        width: 93
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_89
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 250
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_90
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 252
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_91
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 269
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_92
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 270
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_93
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 265
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_94
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 267
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_95
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 252
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_96
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 252
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_97
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 248
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_98
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 166
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_99
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 168
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_100
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 171
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_101
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 179
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_102
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 180
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_103
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 168
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_104
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 168
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_105
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 193
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 164
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_107
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 84
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_108
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 98
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_109
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 99
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_110
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 99
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_111
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 98
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_112
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 84
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_113
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 138
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_114
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 110
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_115
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 84
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_116
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 84
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_117
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 84
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_118
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_119
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 0
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_120
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 12
+        width: 54
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_121
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 16
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_122
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 18
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_123
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 0
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_124
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: Mobile Cartoon Rock_125
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 0
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+  spritePackingTag: UIButton
+  userData: 

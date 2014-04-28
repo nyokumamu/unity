@@ -1,6 +1,6 @@
 ﻿#pragma strict
 
-function OnMouseDown (){
+function OnMouseUp() {
 	Application.LoadLevel("Top");
 	TextDisplay.initialize();
 	CubeBlockSpawn.resetPoint();

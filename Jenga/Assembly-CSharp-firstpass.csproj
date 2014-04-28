@@ -47,6 +47,40 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Plugins\AdBannerObserver.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\FacebookPostprocess.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\FacebookSettingsEditor.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\android\FacebookAndroidUtil.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\android\ManifestMod.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\iOS\FixupFiles.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\iOS\PlistMod.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\PBXBuildFile.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\PBXBuildPhase.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\PBXDictionary.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\PBXFileReference.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\PBXGroup.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\PBXList.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\PBXObject.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\PBXParser.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\PBXProject.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\XCBuildConfiguration.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\XCConfigurationList.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\XCFileOperationQueue.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\XCMod.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\XCProject.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\XCSourceFile.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Editor\iOS\third_party\XCodeEditor-for-Unity\XCTarget.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Scripts\AndroidFacebook.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Scripts\AndroidFacebookLoader.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Scripts\CanvasFacebookLoader.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Scripts\EditorFacebook.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Scripts\EditorFacebookAccessToken.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Scripts\EditorFacebookLoader.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Scripts\FB.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Scripts\FBScreen.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Scripts\FBSettings.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Scripts\IOSFacebook.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Scripts\IOSFacebookLoader.cs" />
+     <Compile Include="Assets\Plugins\Facebook\Scripts\NativeDialogModes.cs" />
      <None Include="Assets\Plugins\Android\facebook\res\values\attrs.xml" />
      <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_activity_circle_row.xml" />
      <None Include="Assets\Plugins\Android\facebook\res\values-iw\strings.xml" />
@@ -59,6 +93,7 @@
      <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_button.xml" />
      <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_usersettingsfragment.xml" />
      <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_checkbox.xml" />
+     <None Include="Assets\Mobile Cartoon GUI\Example\Readme.txt" />
      <None Include="Assets\Plugins\Android\facebook\bin\R.txt" />
      <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar_stub.xml" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
@@ -91,8 +126,8 @@
      <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_row.xml" />
      <None Include="Assets\Plugins\Android\facebook\res\values\styles.xml" />
      <None Include="Assets\Plugins\Android\facebook\res\values-xhdpi\dimens.xml" />
- <Reference Include="Assets\Facebook\Scripts\IFacebook">
- <HintPath>Assets\Facebook\Scripts\IFacebook.dll</HintPath>
+ <Reference Include="Assets\Plugins\Facebook\Scripts\IFacebook">
+ <HintPath>Assets\Plugins\Facebook\Scripts\IFacebook.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

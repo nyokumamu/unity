@@ -1,0 +1,23 @@
+﻿#pragma strict
+
+/* Example level loader */
+
+
+// JavaScript
+function OnGUI () {
+	var height : int = Screen.height/100;
+	var width : int = Screen.width/100;
+	// Make a background box
+	GUI.Box (Rect (10,10,100,90), "Loader Menu");
+
+	// Make the first button. If it is pressed, Application.Loadlevel (1) will be executed
+	if (GUI.Button (Rect (20,40,80,20), "Top")) {
+		Application.LoadLevel ("Top");
+	}
+
+	// Make the second button.
+	if (GUI.Button (Rect (20,70,80,20), "FB")) {
+		Application.LoadLevel ("FB");
+	}
+}
+

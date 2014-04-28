@@ -51,8 +51,11 @@
      <Compile Include="Assets\script\CameraTouchRotate.js" />
      <Compile Include="Assets\script\CameraTranslate.js" />
      <Compile Include="Assets\script\CubeBlockSpawn.js" />
+     <Compile Include="Assets\script\FBButton.js" />
      <Compile Include="Assets\script\HighScore.js" />
+     <Compile Include="Assets\script\Menu.js" />
      <Compile Include="Assets\script\ResetButton.js" />
+     <Compile Include="Assets\script\SceneSwitcher.js" />
      <Compile Include="Assets\script\TextDisplay.js" />
      <None Include="Assets\Plugins\Android\facebook\res\values\attrs.xml" />
      <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_activity_circle_row.xml" />
@@ -66,6 +69,7 @@
      <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_button.xml" />
      <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_usersettingsfragment.xml" />
      <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_checkbox.xml" />
+     <None Include="Assets\Mobile Cartoon GUI\Example\Readme.txt" />
      <None Include="Assets\Plugins\Android\facebook\bin\R.txt" />
      <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar_stub.xml" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
@@ -98,8 +102,8 @@
      <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_row.xml" />
      <None Include="Assets\Plugins\Android\facebook\res\values\styles.xml" />
      <None Include="Assets\Plugins\Android\facebook\res\values-xhdpi\dimens.xml" />
- <Reference Include="Assets\Facebook\Scripts\IFacebook">
- <HintPath>Assets\Facebook\Scripts\IFacebook.dll</HintPath>
+ <Reference Include="Assets\Plugins\Facebook\Scripts\IFacebook">
+ <HintPath>Assets\Plugins\Facebook\Scripts\IFacebook.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

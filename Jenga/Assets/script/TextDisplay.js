@@ -8,6 +8,9 @@ static var dispColor : String = "red";
 var redTexture : Texture;
 var blueTexture : Texture;
 var yellowTexture : Texture;
+// ボタン関連
+var resetTexture : Texture;
+var fbTexture : Texture;
 
 // 連続で色通りバーを消した回数
 static var consecutiveCount : int = 0;
@@ -15,16 +18,8 @@ static var consecutiveCount : int = 0;
 static var basePoint : int = 1;
 
 function OnGUI(){
-	// Point表示
-	var pointDisplayStyle = new GUIStyle();
-	pointDisplayStyle.fontSize = 40;
-	var dispText = point + " point";
-	if (0 < consecutiveCount) {
-		var tmpValue = consecutiveCount * basePoint;
-		dispText = dispText + "(+" + tmpValue + ")";
-	}
-	GUI.Label(Rect(10,20,120,20), dispText, pointDisplayStyle);
-
+	// 得点表示
+	_addPointPanel();
 	// color panel 表示
 	_addColorLabel();
 	// HighScore表示
@@ -37,6 +32,19 @@ function OnGUI(){
 		var rectHeight = 20;
 		GUI.Label(Rect(Screen.width/2 - 150,Screen.height/2 - 50,120,20), "GAME OVER", style);
 	}
+}
+
+function _addPointPanel (){
+	// Point表示
+	var pointDisplayStyle = new GUIStyle();
+	pointDisplayStyle.fontSize = 40;
+	var dispText = point + " point";
+	if (0 < consecutiveCount) {
+		var tmpValue = consecutiveCount * basePoint;
+		dispText = dispText + "(+" + tmpValue + ")";
+	}
+	GUI.Label(Rect(10,20,120,20), dispText, pointDisplayStyle);
+
 }
 
 function _addColorLabel (){
