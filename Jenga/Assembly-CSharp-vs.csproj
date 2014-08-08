@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Examples\Scripts\InteractiveConsole.cs" />
      <Compile Include="Assets\ShowSkin.cs" />
+     <Compile Include="Assets\script\FBButtonCS.cs" />
      <None Include="Assets\Plugins\Android\facebook\res\values\attrs.xml" />
      <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_activity_circle_row.xml" />
      <None Include="Assets\Plugins\Android\facebook\res\values-iw\strings.xml" />
