@@ -62,10 +62,10 @@ function _addColorLabel (){
 }
 function _addHighScoreLabel (){
 	var highScore : int = HighScore.getHighScore();
-	var dispText : String = "HighScore : " + highScore;
+	var dispText : String = "(" + highScore + " point)";
 	var style = new GUIStyle();
 	style.fontSize = 20;
-	GUI.Label(Rect(Screen.width*3/5,Screen.height*4/5,Screen.width/5,Screen.height/5), dispText, style);
+	GUI.Label(Rect(Screen.width*1/30,Screen.height*1/10 + 20,Screen.width/5,Screen.height/5), dispText, style);
 }
 
 function _colorTexture (){
